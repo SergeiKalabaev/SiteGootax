@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+body{
+    font-family: "Nunito Sans"
+    vertical-align: middle;
+
+}
+.container-md{
+    margin-top: 15em;
+    background-color: #bfacd7;
+    border: 2px solid #a5a5da;
+    text-align: center;
+}
+

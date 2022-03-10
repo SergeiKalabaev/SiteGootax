@@ -1,10 +1,7 @@
 <title>Authentication</title>
-<head>
+<?php include ("includes/header.php");?>
 
-</head>
-
-<body>
-<div class = "logincontainer">
+<div class = "container-md">
     <div id = "login">
         <h1>Вход</h1>
         <form action="loginform" method="post" name="loginform">
@@ -13,11 +10,9 @@
         <p><label for="user_pass">Пароль<br>
                 <input class="input" id="password" name="password" size="20" type="password" value=""></label></p>
             <p class="submit"><input class="button" name="login" type="submit" value="Log in"></p>
-            <p class="regtext">Еще не зарегестрированы? <a href ="register.php">Регистрация</a></p>
+            <p class="regtext">Еще не зарегестрированы? <a href ="registration.php">Регистрация</a></p>
         </form>
     </div>
 </div>
-</body>
-<?php
+<?php include ("includes/footer.php");?>
 
-?>
